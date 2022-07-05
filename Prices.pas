@@ -141,7 +141,7 @@ procedure TfmPrices.N3Click(Sender: TObject);
 begin
   //delete
   //!!!
-  if MessageDlg('Удалить '+DM.clmovdm.cdsPricesMOVIE_TITLE.Value+
+  if MessageDlg('“далить '+DM.clmovdm.cdsPricesMOVIE_TITLE.Value+
   ' '+DM.clmovdm.cdsPurtypesMAX_QUALITY.Value+
   'p на '+DM.clmovdm.cdsPurtypesDURATION.Value+' дней?',
   mtConfirmation, [mbYes, mbNo], 0)=mrYes then
